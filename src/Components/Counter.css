@@ -15,12 +15,14 @@
   border: none;
   font-size: 85px;
   border: none;
+}
+
+.button1:active {
   color: #000;
 }
 
-.button1:active,
 .button2:active {
-  color: #000;
+  color: #d3fd23e6;
 }
 
 .buttons {
@@ -31,8 +33,10 @@
 .button1 {
   border-right: solid 3px #000;
   padding: 0px 70px 0px 30px;
+  color: #000;
 }
 
 .button2 {
   padding: 0px 30px 0px 0px;
+  color: #d3fd23e6;
 }
