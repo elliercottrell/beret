@@ -19,7 +19,11 @@ function Counter() {
         <button className="button1" onClick={() => setCount((c) => c - 1)}>
           -
         </button>
-        <button className="button2" onClick={() => setCount((c) => c + 1)}>
+        <button
+          className="button2"
+          onClick={() => setCount((c) => c + 1)}
+          color="#000"
+        >
           +
         </button>
       </div>
