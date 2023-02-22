@@ -1,0 +1,32 @@
+.counter {
+  font-size: 85px;
+  font-weight: bold;
+  color: #d3fd23e6;
+}
+
+.hr {
+  border: solid 1.5px #000;
+  margin: 0px -1px;
+}
+
+.button1,
+.button2 {
+  background-color: #ff6347;
+  border: none;
+  font-size: 85px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button1 {
+  border-right: solid 3px #000;
+  padding: 0px 70px 0px 30px;
+}
+
+.button2 {
+  padding: 0px 30px 0px 0px;
+}
